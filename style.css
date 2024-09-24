@@ -1,0 +1,83 @@
+.body{
+    height:100vh;
+}
+
+.nav{
+    background-color: blanchedalmond;
+    width:100%;
+    height:100px;
+
+}
+.main{
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color:chocolate;
+
+
+}
+.post{
+    background-color: rgb(225, 232, 217);
+    width: 200px;
+    height: 200px;
+    margin:20px;
+}
+
+.post1{
+    background-color: rgb(225, 232, 217);
+    width: 200px;
+    height: 200px;
+    margin:20px;
+
+    transform: rotate(90deg);
+}
+.post2{
+    background-color: rgb(225, 232, 217);
+    width: 200px;
+    height: 200px;
+    margin:20px;
+
+    transform: scale(1.3);
+}
+.post1:hover{
+    background-color: rgb(231, 171, 128);
+    transition: background-color 2s linear;
+}
+
+.posttranslate{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    margin:20px;
+
+    transform: translate(30px, 50px);
+}
+
+
+.footer{
+    background-color: beige;
+    margin:20px;
+
+}
+/* for tablets */
+@media (width< 992px){
+    .nav {
+        background-color: aquamarine;
+        width:100%;
+        
+    }
+    .main{
+
+    }
+
+}
+/* for phones */
+@media(width<600px){
+    .main{
+        background-color:darkkhaki;
+        flex-direction: column;
+
+    }
+
+}
